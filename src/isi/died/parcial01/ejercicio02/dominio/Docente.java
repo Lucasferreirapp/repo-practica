@@ -67,4 +67,8 @@ public class Docente {
 		m.setDocente(this);
 	}
 	
+	public List<Materia> getCatedras(){
+		return this.catedras;
+	}
+	
 }
